@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite3]">
+  <test name="Test3(failed)">
+    <classes>
+      <class name="TestNGTest.TestNGDemo">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="tearDownTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- TestNGTest.TestNGDemo -->
+      <class name="TestNGTest.TestNGDemo2">
+        <methods>
+          <include name="googleSearch4"/>
+          <include name="tearDownTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- TestNGTest.TestNGDemo2 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite3] -->

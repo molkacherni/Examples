@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng.dtd">
+<suite name="Suite5">
+  <test name="Test5">
+    <classes>
+      <class name="TestNGTest.TestNGDemo3"/>
+    </classes>
+  </test> <!-- Test5 -->
+</suite> <!-- Suite5 -->
