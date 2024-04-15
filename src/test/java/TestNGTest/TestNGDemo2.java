@@ -23,7 +23,7 @@ public class TestNGDemo2 {
     public void googleSearch4() {
         driver.get("https://google.com");
         driver.findElement(By.name("q")).sendKeys("Automation step by step");
-       WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement searchButton = wait.until(ExpectedConditions.elementToBeClickable(By.name("btnK")));
         searchButton.click();
       
