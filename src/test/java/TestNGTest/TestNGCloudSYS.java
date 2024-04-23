@@ -136,7 +136,7 @@ class NavigationMenuTest {
     }
 
     public void execute() {
-        WebElement gestionDesTiersToggle = waitForElement(By.xpath("(//span[@class='a-TreeView-toggle'])[3]")); 
+        WebElement gestionDesTiersToggle = waitForElement(By.xpath("(//span[@class='a-TreeView-toggle'])[2]")); 
         gestionDesTiersToggle.click();
         driver.findElement(By.partialLinkText("Mes clients")).click();
        
