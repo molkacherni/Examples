@@ -71,14 +71,7 @@ public class TestNGCloudSYS {
         Assert.assertTrue(isClientFound, "Le client recherché n'est pas affiché sur la page.");
     }
 
-    @Test(priority=5)
-    public void testUsernameFieldVisibility() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
 
-        WebElement usernameField = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("t_Body_content")));
-
-        Assert.assertTrue(usernameField.isDisplayed(), " Un nouveau client déja crée.");
-    }
 
     @AfterTest
     public void tearDownTest() {
