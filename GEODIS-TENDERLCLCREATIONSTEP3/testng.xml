@@ -1,0 +1,20 @@
+
+<suite name="SuiteTestResult" preserve-order="true" >
+	<listeners>
+
+<listener class-name="geodisTenderCreate.Testlistener"/>
+
+</listeners>
+  <test name="TestQuote">
+    <classes>
+      <class name="geodisTenderCreate.TestcaseGeodisCreateTender"/>
+       <methods>
+        
+          <include name="testDatabaseConnectionAndLogin" />
+          <include name="TestSearchTender" />
+          <include name="TestUpdateMapping" />
+
+        </methods>
+    </classes>
+  </test> <!-- TestQuote -->
+</suite> <!-- SuiteQuote -->
