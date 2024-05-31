@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-29T08:30:05 PDT" name="SuiteResultClient" finished-at="2024-05-29T08:32:24 PDT" duration-ms="138872">
+    <groups>
+    </groups>
+    <test started-at="2024-05-29T08:30:05 PDT" name="TestResultClient" finished-at="2024-05-29T08:32:24 PDT" duration-ms="138872">
+      <class name="geodisclientdatacsv.ClientData">
+        <test-method is-config="true" signature="setup()[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:30:05 PDT" name="setup" finished-at="2024-05-29T08:30:07 PDT" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:30:07 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:30:22 PDT" duration-ms="15146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BEN ATTIA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ALI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56305396]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:30:22 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:30:37 PDT" duration-ms="15208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KHALED]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LASSOUED]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[26305366]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[56325789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:30:37 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:30:49 PDT" duration-ms="11883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BEN MANSOUR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55315346]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:30:49 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:31:10 PDT" duration-ms="20451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BORHAN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TABASSI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54305379]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[72456963]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:31:10 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:31:23 PDT" duration-ms="13021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SOCIETE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABAPLAST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56305396]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[77895632]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:31:23 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:31:34 PDT" duration-ms="11661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MOUNA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56305486]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[74456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:31:34 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:31:47 PDT" duration-ms="12930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TAREK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KARRAY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56005396]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[54789456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:31:47 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:31:59 PDT" duration-ms="12165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MOHAMED]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SALAHLIMEM ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[56305306]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[71400456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:31:59 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:32:12 PDT" duration-ms="12188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CLINIQUE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EL MANAR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54805316]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[74896741]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method signature="testClientData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:32:12 PDT" name="testClientData" data-provider="clientDataFromCSV" finished-at="2024-05-29T08:32:24 PDT" duration-ms="12554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ZOUHAIER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BELGHITH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[52805396]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[55833933]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:geodisclientdatacsv.ClientData@48e92c5c]" started-at="2024-05-29T08:32:24 PDT" name="teardown" finished-at="2024-05-29T08:32:24 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- geodisclientdatacsv.ClientData -->
+    </test> <!-- TestResultClient -->
+  </suite> <!-- SuiteResultClient -->
+</testng-results>

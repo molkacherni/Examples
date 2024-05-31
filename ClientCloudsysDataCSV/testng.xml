@@ -1,0 +1,13 @@
+
+<suite name="SuiteResultClient" preserve-order="true">
+  <listeners>
+    <listener class-name="geodisclientdatacsv.Testlistener" />
+  </listeners>
+  <test name="TestResultClient">
+    <classes>
+      <class name="geodisclientdatacsv.ClientData">
+        
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
